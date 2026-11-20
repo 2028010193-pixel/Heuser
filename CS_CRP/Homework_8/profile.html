@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subject Profile — The Unfinished Case File</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Evidence Tab Navigation -->
+  <nav class="nav-tabs" aria-label="Case file navigation">
+    <a href="index.html" class="nav-tab">
+      <span class="tab-icon">📋</span>
+      <span class="tab-label">Case File</span>
+    </a>
+    <a href="profile.html" class="nav-tab active">
+      <span class="tab-icon">🔍</span>
+      <span class="tab-label">Subject</span>
+    </a>
+    <a href="interests.html" class="nav-tab">
+      <span class="tab-icon">📌</span>
+      <span class="tab-label">Evidence</span>
+    </a>
+    <a href="projects.html" class="nav-tab">
+      <span class="tab-icon">📂</span>
+      <span class="tab-label">Projects</span>
+    </a>
+    <a href="aspirations.html" class="nav-tab">
+      <span class="tab-icon">🔮</span>
+      <span class="tab-label">Predictions</span>
+    </a>
+  </nav>
+  <button class="mobile-toggle" aria-label="Open evidence drawer">📁</button>
+
+  <main class="page">
+    <div class="case-content">
+
+      <!-- Page Header -->
+      <span class="case-number anim-fade-up">Case No. 2024-UCF-0801 &mdash; Exhibit A</span>
+      <h1 class="anim-fade-up anim-delay-1">Subject Profile</h1>
+      <span class="stamp small rose anim-delay-2">Personnel Dossier</span>
+
+      <!-- Profile Layout -->
+      <div class="profile-layout anim-fade-up anim-delay-3">
+
+        <!-- Polaroid Photo -->
+        <div class="profile-photo">
+          <div class="polaroid" style="transform: rotate(-3deg);">
+            <div class="photo-area large">
+              <img src="ph.jpeg" alt="Photograph of Maha Kafeel" class="subject-photo">
+            </div>
+            <span class="caption">Maha Kafeel</span>
+          </div>
+        </div>
+
+        <!-- Dossier Document -->
+        <div class="document paper-clip">
+          <div class="doc-header">
+            <h2>Personal Information</h2>
+            <span class="case-number">Classification: Standard</span>
+          </div>
+
+          <div class="field">
+            <span class="field-label">Full Name</span>
+            <span class="field-value">Maha Kafeel</span>
+          </div>
+          <div class="field">
+            <span class="field-label">Location</span>
+            <span class="field-value">Karachi, Pakistan</span>
+          </div>
+          <div class="field">
+            <span class="field-label">Education</span>
+            <span class="field-value">Currently pursuing Alevel Studies</span>
+          </div>
+          <div class="field">
+            <span class="field-label">Contact</span>
+            <span class="field-value">2028010193@heusercollege.edu.pk</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cross-References -->
+      <div class="cross-ref reveal">
+        <h4>📎 Cross-References</h4>
+        <div class="cross-ref-links">
+          <a href="interests.html" class="evidence-tag">📌 See Evidence Board →</a>
+          <a href="projects.html" class="evidence-tag">📂 See Project Files →</a>
+          <a href="aspirations.html" class="evidence-tag">🔮 See Predictions →</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evidence Board — The Unfinished Case File</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Evidence Tab Navigation -->
+  <nav class="nav-tabs" aria-label="Case file navigation">
+    <a href="index.html" class="nav-tab">
+      <span class="tab-icon">📋</span>
+      <span class="tab-label">Case File</span>
+    </a>
+    <a href="profile.html" class="nav-tab">
+      <span class="tab-icon">🔍</span>
+      <span class="tab-label">Subject</span>
+    </a>
+    <a href="interests.html" class="nav-tab active">
+      <span class="tab-icon">📌</span>
+      <span class="tab-label">Evidence</span>
+    </a>
+    <a href="projects.html" class="nav-tab">
+      <span class="tab-icon">📂</span>
+      <span class="tab-label">Projects</span>
+    </a>
+    <a href="aspirations.html" class="nav-tab">
+      <span class="tab-icon">🔮</span>
+      <span class="tab-label">Predictions</span>
+    </a>
+  </nav>
+  <button class="mobile-toggle" aria-label="Open evidence drawer">📁</button>
+
+  <main class="page">
+    <div class="case-content">
+
+      <!-- Page Header -->
+      <span class="case-number anim-fade-up">Case No. 2024-UCF-0801 &mdash; Exhibit B</span>
+      <h1 class="anim-fade-up anim-delay-1">Evidence Board</h1>
+      <p class="anim-fade-up anim-delay-2" style="font-family:'Cormorant Garamond',serif; font-style:italic; color:var(--charcoal); opacity:0.7; margin:0.5rem 0 1.5rem;">
+        Collected observations regarding the subject's known interests and preferences.
+      </p>
+      <span class="stamp small anim-delay-3">Field Evidence</span>
+
+      <!-- Cork Board -->
+      <div class="cork-board anim-fade-up anim-delay-4">
+        <div class="board-items">
+
+          <!-- Interest 1 -->
+          <div class="board-item">
+            <div class="interest-card note">
+              <div class="interest-icon">📚</div>
+              <div class="interest-title">Reading</div>
+              <p class="interest-desc">Reading allows me to explore different perspectives, discover new ideas and continuously expand my understanding of the world. I enjoy getting lost in stories and learning something new through every book I pick up.</p>
+            </div>
+          </div>
+
+          <!-- Interest 2 -->
+          <div class="board-item">
+            <div class="interest-card sticky">
+              <div class="interest-icon">🏊</div>
+              <div class="interest-title">Swimming</div>
+              <p class="interest-desc">Swimming is an activity I enjoy because it combines physical activity with relaxation. I appreciate the sense of freedom it offers and the opportunity to challenge myself while developing stamina and discipline.</p>
+            </div>
+          </div>
+
+          <!-- Interest 3 -->
+          <div class="board-item">
+            <div class="interest-card photo">
+              <div style="width:100%;height:120px;background:linear-gradient(135deg,var(--rose),var(--gold));display:flex;align-items:center;justify-content:center;font-size:2rem;">🌍</div>
+              <div style="padding:8px 2px 0;">
+                <div class="interest-title">Travelling</div>
+                <p class="interest-desc">Travelling interests me because it allows me to experience different cultures, explore unfamiliar places and gain new perspectives. I enjoy discovering places, experiencing different environments and creating memorable experiences.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Cross-References -->
+      <div class="cross-ref reveal">
+        <h4>📎 Cross-References</h4>
+        <div class="cross-ref-links">
+          <a href="profile.html" class="evidence-tag">🔍 See Subject Profile →</a>
+          <a href="projects.html" class="evidence-tag">📂 See Project Files →</a>
+          <a href="aspirations.html" class="evidence-tag">🔮 See Predictions →</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

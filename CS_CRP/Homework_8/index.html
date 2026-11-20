@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Unfinished Case File</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Evidence Tab Navigation -->
+  <nav class="nav-tabs" aria-label="Case file navigation">
+    <a href="index.html" class="nav-tab active">
+      <span class="tab-icon">📋</span>
+      <span class="tab-label">Case File</span>
+    </a>
+    <a href="profile.html" class="nav-tab">
+      <span class="tab-icon">🔍</span>
+      <span class="tab-label">Subject</span>
+    </a>
+    <a href="interests.html" class="nav-tab">
+      <span class="tab-icon">📌</span>
+      <span class="tab-label">Evidence</span>
+    </a>
+    <a href="projects.html" class="nav-tab">
+      <span class="tab-icon">📂</span>
+      <span class="tab-label">Projects</span>
+    </a>
+    <a href="aspirations.html" class="nav-tab">
+      <span class="tab-icon">🔮</span>
+      <span class="tab-label">Predictions</span>
+    </a>
+  </nav>
+  <button class="mobile-toggle" aria-label="Open evidence drawer">📁</button>
+
+  <main class="page">
+    <div class="case-content case-cover">
+
+      <!-- Case Number -->
+      <span class="case-number anim-fade-up">Case No. 2024-UCF-0801</span>
+
+      <!-- Title -->
+      <div class="title-group">
+        <h1>The Unfinished<br>Case File</h1>
+        <div class="divider"></div>
+        <p class="subtitle">A Portfolio Investigation</p>
+      </div>
+
+      <!-- Stamps -->
+      <div style="display:flex; gap:1.5rem; flex-wrap:wrap; justify-content:center;">
+        <span class="stamp">Open Case</span>
+        <span class="stamp gold small" style="transform:rotate(4deg)">Confidential</span>
+      </div>
+
+      <!-- Case Metadata -->
+      <div class="case-meta">
+        <span>Filed: 11/20/2026</span>
+        <span>Investigator: XYZ</span>
+        <span>Status: Active</span>
+      </div>
+
+      <!-- Concept Explanation -->
+      <p class="concept">
+        This portfolio is not a traditional website — it is an investigative dossier.
+        Each section is a piece of evidence waiting to be examined.
+        Navigate through classified documents, pinned photographs, and case files to uncover the story within.
+      </p>
+
+      <!-- Evidence Navigation Links -->
+      <div class="evidence-links">
+        <a href="profile.html" class="evidence-link">
+          <span class="link-icon">🔍</span>
+          <span class="link-label">Subject Profile</span>
+          <span class="link-desc">Who is the subject?</span>
+        </a>
+        <a href="interests.html" class="evidence-link">
+          <span class="link-icon">📌</span>
+          <span class="link-label">Evidence Board</span>
+          <span class="link-desc">Interests &amp; observations</span>
+        </a>
+        <a href="projects.html" class="evidence-link">
+          <span class="link-icon">📂</span>
+          <span class="link-label">Project Files</span>
+          <span class="link-desc">Documented works</span>
+        </a>
+        <a href="aspirations.html" class="evidence-link">
+          <span class="link-icon">🔮</span>
+          <span class="link-label">Future Predictions</span>
+          <span class="link-desc">What comes next?</span>
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
