@@ -1,4 +1,4 @@
-name: Deploy Homework 8 to GitHub Pages
+name: Deploy Homework Websites to GitHub Pages
 
 on:
   push:
@@ -29,10 +29,10 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload Homework 8
+      - name: Upload website files
         uses: actions/upload-pages-artifact@v4
         with:
-          path: CS_CRP/Homework_8
+          path: .
 
       - name: Deploy
         id: deployment
