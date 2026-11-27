@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Files — The Unfinished Case File</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Evidence Tab Navigation -->
+  <nav class="nav-tabs" aria-label="Case file navigation">
+    <a href="index.html" class="nav-tab">
+      <span class="tab-icon">📋</span>
+      <span class="tab-label">Case File</span>
+    </a>
+    <a href="profile.html" class="nav-tab">
+      <span class="tab-icon">🔍</span>
+      <span class="tab-label">Subject</span>
+    </a>
+    <a href="interests.html" class="nav-tab">
+      <span class="tab-icon">📌</span>
+      <span class="tab-label">Evidence</span>
+    </a>
+    <a href="projects.html" class="nav-tab active">
+      <span class="tab-icon">📂</span>
+      <span class="tab-label">Projects</span>
+    </a>
+    <a href="aspirations.html" class="nav-tab">
+      <span class="tab-icon">🔮</span>
+      <span class="tab-label">Predictions</span>
+    </a>
+  </nav>
+  <button class="mobile-toggle" aria-label="Open evidence drawer">📁</button>
+
+  <main class="page">
+    <div class="case-content">
+
+      <!-- Page Header -->
+      <span class="case-number anim-fade-up">Case No. 2024-UCF-0801 &mdash; Exhibit C</span>
+      <h1 class="anim-fade-up anim-delay-1">Project Files</h1>
+      <p class="anim-fade-up anim-delay-2" style="font-family:'Cormorant Garamond',serif; font-style:italic; color:var(--charcoal); opacity:0.7; margin:0.5rem 0 1.5rem;">
+        Documented works and ongoing investigations attributed to the subject.
+      </p>
+      <span class="stamp small gold anim-delay-3">Case Evidence</span>
+
+      <!-- Project Folders -->
+      <div class="project-files">
+
+        <!-- Project 1: Homework 7 -->
+        <div class="project-folder open reveal">
+          <div class="folder-header">
+            <div>
+              <h3>📁 CATCH GAME — HOMEWORK 7</h3>
+              <span class="project-status active">Active Case</span>
+            </div>
+            <span class="folder-toggle">▼</span>
+          </div>
+          <div class="folder-body">
+            <div class="folder-content">
+              <p>An interactive JavaScript-based Catch Game developed as part of my previous Computer Science coursework, demonstrating programming logic, user interaction and front-end development.</p>
+              <a href="https://2028010193-pixel.github.io/Heuser/CS_CRP/Homework_6/" class="hw-link" target="_blank" rel="noopener noreferrer">
+                OPEN PROJECT
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-folder reveal">
+          <div class="folder-header">
+            <div>
+              <h3>📁 <span class="placeholder">[Project Name #2]</span></h3>
+              <span class="project-status closed">Closed</span>
+            </div>
+            <span class="folder-toggle">▼</span>
+          </div>
+          <div class="folder-body">
+            <div class="folder-content">
+              <p><span class="placeholder">[Description of this project: What problem it solves, what tools and frameworks you used, and the outcome.]</span></p>
+              <p><strong>Technologies:</strong> <span class="placeholder">[Tech 1, Tech 2, Tech 3]</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-folder reveal">
+          <div class="folder-header">
+            <div>
+              <h3>📁 <span class="placeholder">[Project Name #3]</span></h3>
+              <span class="project-status open-case">In Progress</span>
+            </div>
+            <span class="folder-toggle">▼</span>
+          </div>
+          <div class="folder-body">
+            <div class="folder-content">
+              <p><span class="placeholder">[Description of an ongoing project: Your vision, current progress, and next steps.]</span></p>
+              <p><strong>Technologies:</strong> <span class="placeholder">[Tech 1, Tech 2, Tech 3]</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-folder reveal">
+          <div class="folder-header">
+            <div>
+              <h3>📁 <span class="placeholder">[Project Name #4]</span></h3>
+              <span class="project-status closed">Closed</span>
+            </div>
+            <span class="folder-toggle">▼</span>
+          </div>
+          <div class="folder-body">
+            <div class="folder-content">
+              <p><span class="placeholder">[Description of another completed project, including its impact or any notable achievements.]</span></p>
+              <p><strong>Technologies:</strong> <span class="placeholder">[Tech 1, Tech 2, Tech 3]</span></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Evidence note -->
+      <div class="sticky-note reveal" style="margin-top:2rem; max-width:280px; transform:rotate(1.5deg);">
+        <strong>Case Officer Remark:</strong><br>
+        <span class="placeholder">[A brief reflection on your project experience and what you've learned overall.]</span>
+      </div>
+
+      <!-- Cross-References -->
+      <div class="cross-ref reveal">
+        <h4>📎 Cross-References</h4>
+        <div class="cross-ref-links">
+          <a href="profile.html" class="evidence-tag">🔍 See Subject Profile →</a>
+          <a href="interests.html" class="evidence-tag">📌 See Evidence Board →</a>
+          <a href="aspirations.html" class="evidence-tag">🔮 See Predictions →</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
